@@ -1,0 +1,19 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgb(73, 73, 89);
+}
+
+.getNyaCoinsButton {
+    display: flex;
+    transform: translateX(50%, 50%);
+    align-self: center;
+    font-display: Verdana;
+}
+
+#getNyaCoinsButtonChild {
+    font-size: 140%;
+}
+
+#nyaButtonQuantityText {
+    font-display: Verdana;
+}
