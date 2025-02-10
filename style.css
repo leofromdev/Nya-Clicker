@@ -17,3 +17,8 @@ body {
 #nyaButtonQuantityText {
     font-display: Verdana;
 }
+
+.downButtonText {
+    padding-left: 2%;
+    color: azure;
+}

@@ -1,7 +1,16 @@
-let nyaButtonQuantity = 1;
+let nyaCoins = 0;
 
-let nyaButtonQuantityText = document.querySelector("#nyaButtonQuantityText");
+let currentClickGain = 1;
 
-nyaButtonQuantityText.textContent = nyaButtonQuantity;
+let nyaButtonQuantityText = document.querySelector('#nyaButtonQuantityText');
+nyaButtonQuantityText.textContent = currentClickGain;
 
+let currentNyaCoins = document.querySelector('#currentNyaCoins');
+currentNyaCoins.textContent = nyaCoins;
+
+function clikedNyaButton() {
+    nyaCoins = nyaCoins + 1;
+    let currentNyaCoins = document.querySelector('#currentNyaCoins');
+    currentNyaCoins.textContent = nyaCoins;
+}
 
